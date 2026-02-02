@@ -13,9 +13,9 @@ The project demonstrates facial image inpainting using a conditional diffusion m
 - `report.pdf` — Project report with methodology, experiments, and results.
 - `requirements.txt` — Python dependencies.
 - `generated samples/` — Folder with generated outputs:
-  - `samples.png` — Model outputs (3 different samples) for example images.
+  - `samples.png` — Model outputs (3 different samples) for 6 example images.
   - `training_faces.png` — Model outputs on training set faces.
-  - `unseen_faces.png` — Model outputs on held-out faces.
+  - `unseen_faces.png` — Model outputs on unseen faces.
 - `images/` — Example input images for inference.
 
 ## Requirements
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 1. Install dependencies as above.
 2. Launch Jupyter and open the notebook:
-3. Run the cells in `main.ipynb` to perform inference using the pretrained `model.pth` and visualize new samples. The notebook will generate a grid of inpainted faces and save it as `generated samples/samples.png`.
+3. Run the cells in `main.ipynb` to perform inference using the pretrained `model.pth` and visualize new samples from the images provided. The notebook will generate a grid of inpainted faces and save it as `generated samples/samples.png`.
 
 **Note:**
 - Ensure your working directory is the repository root so that relative paths (e.g., `model.pth`, `images/`, `generated samples/`) resolve correctly.
